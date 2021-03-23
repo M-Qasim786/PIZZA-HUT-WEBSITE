@@ -1,0 +1,185 @@
+.header {
+  background-image: url(../image/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  transition: 5s;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(../image/background2.jpg);
+  }
+  20% {
+    background-image: url(../image/background3.jpg);
+  }
+  40% {
+    background-image: url(../image/background4.jpg);
+  }
+  60% {
+    background-image: url(../image/background5.jpg);
+  }
+  80% {
+    background-image: url(../image/background6.jpg);
+  }
+  100% {
+    background-image: url(../image/background7.jpg);
+  }
+}
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+}
+
+.text_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  text-align: center;
+}
+.text_div h2 {
+  margin-top: 10rem;
+  font-weight: 700;
+  font-size: 40px;
+}
+.text_div h1 {
+  font-size: 65px;
+}
+.text_div p {
+  font-size: 20px;
+}
+.header .btn {
+  background-color: #f16121;
+
+  border-radius: 30px;
+  padding: 14px 30px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 2rem;
+  outline: none;
+  cursor: pointer;
+}
+.header .btn:hover {
+  background-color: #89a014;
+  transition: all 0.4s ease;
+}
+@media (max-width: 650px) {
+  .text_div h1 {
+    font-size: 50px;
+  }
+  .text_div h2 {
+    font-size: 20px;
+  }
+  .text_div p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .text_div h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .text_div h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 375px) {
+  .text_div h1 {
+    font-size: 30px;
+  }
+}
+
+/* -------------------offer sectiov------------ */
+
+.offer_div {
+  display: flex;
+  margin-top: 1.3rem;
+  background: #d9dbd5;
+}
+.card2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 65vh;
+  width: 30%;
+  background-color: #29353c;
+  color: #fff;
+  margin: auto 0px;
+  border-radius: 15px;
+  /* box-shadow: 5px 25px 25px -5px rgba(0,0,0,0.3); */
+}
+.card2 h1 {
+  font-size: 55px;
+}
+.card2 h3 {
+  color: #bfdb3a;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.card2 h6 {
+  font-size: 30px;
+}
+.card2 .btn {
+  background-color: #f16121;
+  padding: 13px 40px;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+.card2 .btn:hover {
+  background-color: #89a014;
+  transition: all 0.4s ease;
+}
+.offer_div img {
+  width: 100%;
+}
+@media (max-width: 1050px) {
+  .offer_div img {
+    display: none;
+  }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    width: 50%;
+  }
+  .card2 .btn {
+    margin-top: 1rem;
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+  .card2 p {
+    font-size: 10px;
+  }
+  .card2 h1 {
+    font-size: 40px;
+  }
+  .card2 h3 {
+    font-size: 30px;
+  }
+  .card2 h6 {
+    font-size: 25px;
+  }
+}

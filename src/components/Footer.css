@@ -1,0 +1,130 @@
+.footer_style {
+  display: flex;
+  background-color: #433e3d;
+  color: #fff;
+  justify-content: center;
+}
+.footer_style .search_box input {
+  padding: 8px 100px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.footer_style p {
+  color: gray;
+  padding-left: 2rem;
+}
+.footer_style .heading {
+  padding-left: 2rem;
+}
+.search_box {
+  flex: 35%;
+}
+.icon {
+  flex: 25%;
+  margin-left: 2rem;
+}
+.icon .icon_style {
+  font-size: 55px;
+  padding: 0px 7px;
+  box-shadow: 5px 25px 25px -5px #f16121;
+}
+.icon .icon_style:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+  color: #89a014;
+  transform: scale(0.9);
+  
+}
+.footer_contact {
+  margin-right: 1rem;
+}
+.footer_contact h4 {
+  font-size: 27px;
+}
+.search_box button {
+  background-color: #f16121;
+  border: none;
+  outline: none;
+  padding: 8px 38px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+}
+.search_box button:hover {
+  background-color: #89a014;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.copy_right {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: rgb(32, 28, 28);
+}
+/* --------------------media query------------------ */
+@media (max-width: 950px) {
+  .footer_style {
+    display: block;
+  }
+  .footer_style p {
+    color: gray;
+    padding-left: 0rem;
+  }
+  .footer_style .heading {
+    padding-left: 0rem;
+  }
+  .search_box {
+    flex: 35%;
+  }
+  .icon {
+    flex: 25%;
+    margin-left: 0rem;
+  }
+  .icon .icon_style {
+    font-size: 30px;
+    padding: 0px 0px;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
+  .footer_contact {
+    margin-right: 0rem;
+    text-align: center;
+  }
+
+  .footer_contact h2 {
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  .footer_contact h4 {
+    font-size: 20px;
+  }
+  .search_box h2 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  .search_box p {
+    text-align: center;
+  }
+  .search_box input {
+    display: none;
+  }
+  .search_box Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .icon h2 {
+    margin-top: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+  }
+}

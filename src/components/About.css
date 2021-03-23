@@ -1,0 +1,245 @@
+/* ----------------------about header style------------------- */
+.about_style {
+  background: url(../image/aboutbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.main {
+  background: rgba(0, 0, 0, 0.4);
+  height: 60vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 50px;
+}
+.main .divider {
+  width: 10%;
+}
+.about_section_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e5e3;
+  height: 90vh;
+  width: 100%;
+}
+.about_text_style {
+  margin: 30px;
+}
+.about_text_style h2 {
+  font-size: 40px;
+}
+.about_text_style p {
+  font-size: 17px;
+}
+.about_text_style h1 {
+  color: #f16121;
+  font-size: 25px;
+}
+.about_text_style .about_btn {
+  color: #fff;
+  background-color: #f16121;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 9px 20px;
+  font-size: 17px;
+  margin-top: 2rem;
+}
+.about_text_style .about_btn:hover {
+  background-color: #89a014;
+}
+.about_img_style img {
+  height: 65vh;
+}
+@media (max-width: 550px) {
+  .main {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .about_img_style img {
+    display: none;
+  }
+  @media (max-width: 680px) {
+    .about_text_style h2 {
+      font-size: 30px;
+    }
+  }
+  .about_text_style h1 {
+    font-size: 20px;
+  }
+  @media (max-width: 360px) {
+    .about_text_style h2 {
+      font-size: 18px;
+    }
+    .about_text_style h1 {
+      font-size: 10px;
+    }
+    .about_text_style p {
+      font-size: 12px;
+    }
+  }
+
+  /* ---------------idea div style--------------------------------- */
+  .about_text_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+    text-align: center;
+  }
+}
+.idea_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+}
+.idea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+  padding: 50px;
+  /* border: 2px solid black; */
+}
+
+.story_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.story_div h1 {
+  font-size: 60px;
+}
+.story_div h4 {
+  font-size: 30px;
+}
+
+.idea p {
+  font-size: 16px;
+}
+.image img {
+  height: 60vh;
+  border-radius: 5px;
+  box-shadow: 5px 25px 25px -5px rgba(0, 0, 0, 0.2);
+}
+.image img:hover {
+  transform: scale(0.9);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .idea_style {
+    display: block;
+  }
+  .image img {
+    width: 100%;
+  }
+  .idea {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+/* ----------------------partners div style------------------------ */
+.partner {
+  background: url(../image/partner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 65vh;
+  width: 100%;
+  margin-top: 8rem;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  flex-direction: column;
+}
+.overlay h1 {
+  margin-top: 2rem;
+  font-size: 50px;
+}
+.overlay p {
+  font-size: 17px;
+}
+.logos img {
+  height: 20vh;
+  border-radius: 50%;
+  margin: 40px 20px;
+  padding: 0px 50px;
+}
+@media (max-width: 740px) {
+  .logos img {
+    height: 12vh;
+    padding: 0px 0px;
+    margin: 5px;
+  }
+}
+@media (max-width: 1150px) {
+  .logos img {
+    padding: 0px 0px;
+  }
+}
+/* ---------------------team div style------------- */
+
+.team {
+  margin-top: 2rem;
+}
+.team h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.team p {
+  text-align: center;
+}
+.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.member img {
+  height: 40vh;
+
+  border-top: 6px solid #f16121;
+  border-bottom: 6px solid #f16121;
+  margin: 40px;
+  box-shadow: 5px 25px 25px -5px rgba(0, 0, 0, 0.2);
+}
+.member img:hover {
+  transform: scale(0.9);
+  transition: all 0.4s ease-in-out;
+}
+@media (max-width: 1120px) {
+  .member {
+    display: block;
+  }
+  .member img {
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-top: 0px solid #f16121;
+    border-bottom: 0px solid #f16121;
+  }
+}

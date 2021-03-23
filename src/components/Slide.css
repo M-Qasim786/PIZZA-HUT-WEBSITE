@@ -1,0 +1,43 @@
+.section {
+  background-color: rgb(252, 245, 245);
+}
+.text_style {
+  text-align: center;
+  color: black;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.text_style h1 {
+  font-size: 60px;
+}
+.text_style p {
+  font-size: 17px;
+}
+.slider_style img {
+  height: 100vh;
+}
+.slider_style {
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 660px) {
+  .text_style h1 {
+    font-size: 40px;
+  }
+  .text_style p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 440px) {
+  .text_style h1 {
+    font-size: 30px;
+  }
+  .text_style p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1050px) {
+  .slider_style img {
+    height: 35vh;
+  }
+}

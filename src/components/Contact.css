@@ -1,0 +1,120 @@
+.contact_section {
+  background: url(../image/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+}
+.contact_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  height: 60vh;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 50px;
+}
+.contact_text .divider {
+  width: 10%;
+}
+.contact_box {
+  margin-top: 5rem;
+}
+.contact_box h2 {
+  text-align: center;
+  font-size: 60px;
+}
+.contact_box p {
+  text-align: center;
+}
+.form_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin: 20px; */
+}
+.form_box .form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: auto;
+  margin-left: 4rem;
+}
+.form_box .form label {
+  margin: 10px 0px;
+}
+.form input {
+  width: 60%;
+  padding: 15px;
+
+  border: none;
+  outline: none;
+  transition: all 0.5s ease;
+  border-bottom: 1px solid #f16121;
+}
+.form textarea {
+  width: 60%;
+  padding: 15px;
+  border: 1px solid #f16121;
+}
+.form textarea:hover {
+  border: 5px solid #f16121;
+  transition: all 0.5s ease;
+  transform: scale(0.9);
+}
+.form_box .submit_btn {
+  margin-left: 4rem;
+  margin-right: auto;
+  border: none;
+  outline: none;
+  background-color: #f16121;
+  padding: 15px 20px;
+  width: 20%;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+.form input:hover {
+  border: none;
+  border-bottom: 5px solid tomato;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+  transform: scale(0.9);
+}
+.form_box .submit_btn:hover {
+  background-color: #89a014;
+  transition: all 0.4s ease;
+}
+@media (max-width: 970px) {
+  .form_box .form label {
+    display: none;
+  }
+  .form_box .form input {
+    margin: 30px;
+    margin-left: 0px;
+  }
+  .form textarea {
+    margin: 0px 30px;
+    margin-left: 0px;
+  }
+  .contact_text h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1070px) {
+  .form_box .submit_btn {
+    padding: 12px 10px;
+    width: 35%;
+
+    margin-top: 2rem;
+    font-size: 15px;
+  }
+}
